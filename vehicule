@@ -1,0 +1,40 @@
+package casestudy1;
+
+public abstract class Vehicule {
+	public String marque;
+	public int tarif_ref;
+	public double prix;
+
+	public String getMarque() {
+		return marque;
+	}
+	public void setMarque(String marque) {
+		this.marque = marque;
+	}
+	public int getTarif_ref() {
+		return tarif_ref;
+	}
+	public void setTarif_ref(int tarif_ref) {
+		this.tarif_ref = tarif_ref;
+	}
+	public double getPrix() {
+		return prix;
+	}
+	public void setPrix(double prix) {
+		this.prix = prix;
+	}
+	public Vehicule(String marque) {
+		// TODO Auto-generated constructor stub
+	}
+	public abstract double calculeprix(int nb_jour);
+	
+	public void afficheresulta() {
+		
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
